@@ -42,4 +42,5 @@ print(ceil(2.4))
 print(sqrt(36))
 
 name = input("Enter your name: ")
-print("Hello " + name)
+age = input("Enter your age: ")
+print("Hello " + name + "! You are " + age)
