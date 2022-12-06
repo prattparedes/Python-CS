@@ -26,10 +26,20 @@
 # print(3 * 4 + 5)
 # print(10 % 3)
 
-my_num = -5
-print("I have " + str(my_num) + " kids")
-print(abs(my_num))
-print(pow(3,2))
-print(max(4,100))
-print(min(4,100))
-print(round(3.49))
+# my_num = -5
+# print("I have " + str(my_num) + " kids")
+# print(abs(my_num))
+# print(pow(3,2))
+# print(max(4,100))
+# print(min(4,100))
+# print(round(3.49))
+
+
+from math import *
+
+print(floor(2.4))
+print(ceil(2.4))
+print(sqrt(36))
+
+name = input("Enter your name: ")
+print("Hello " + name)
