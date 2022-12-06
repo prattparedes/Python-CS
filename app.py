@@ -44,3 +44,8 @@ print(sqrt(36))
 name = input("Enter your name: ")
 age = input("Enter your age: ")
 print("Hello " + name + "! You are " + age)
+
+num1 = float(input("Enter a number: "))
+num2 = float(input("Enter another number: "))
+result = num1 + num2
+print(result)
