@@ -37,15 +37,23 @@
 
 from math import *
 
-print(floor(2.4))
-print(ceil(2.4))
-print(sqrt(36))
+# print(floor(2.4))
+# print(ceil(2.4))
+# print(sqrt(36))
 
-name = input("Enter your name: ")
-age = input("Enter your age: ")
-print("Hello " + name + "! You are " + age)
+# name = input("Enter your name: ")
+# age = input("Enter your age: ")
+# print("Hello " + name + "! You are " + age)
 
-num1 = float(input("Enter a number: "))
-num2 = float(input("Enter another number: "))
-result = num1 + num2
-print(result)
+# num1 = float(input("Enter a number: "))
+# num2 = float(input("Enter another number: "))
+# result = num1 + num2
+# print(result)
+
+color = input("Enter a color: ")
+plural_noun = input("Enter a plural noun: ")
+celebrity = input("Enter a celebrity: ")
+
+print("Roses are " + color)
+print(plural_noun + " are blue") 
+print("I love " + celebrity) 
