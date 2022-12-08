@@ -57,14 +57,36 @@ from math import *
 # celebrity = input("Enter a celebrity: ")
 
 # print("Roses are " + color)
-# print(plural_noun + " are blue") 
-# print("I love " + celebrity) 
+# print(plural_noun + " are blue")
+# print("I love " + celebrity)
 
 
-#Lists
-friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+# Lists
+lucky_numbers = [4,42, 2, 8, 15, 23, 1, 16, 23, 42]
+friends = ["Kevin", "Karen", "Jim", "Jim", "Jim", "Jim", "Oscar", "Toby"]
+friends.append("Creed")
+friends.insert(1, "Kelly")
+# friends.remove("Jim")
+friends.pop()
+friends.sort()
+lucky_numbers.sort()
+lucky_numbers.reverse()
 
-friends[1] = "Mike"
+friends2 = friends.copy()
+
+# Clears a list of everything
+# friends.clear()
+
+# friends.extend(lucky_numbers)
+
 print(friends)
-print(friends[2])
-print(friends[1:4])
+print(friends.index("Karen"))
+print(friends.count("Jim"))
+
+print(lucky_numbers)
+print(friends2)
+
+# friends[1] = "Mike"
+# print(friends)
+# print(friends[2])
+# print(friends[1:4])
