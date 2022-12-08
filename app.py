@@ -62,7 +62,7 @@ from math import *
 
 
 # Lists
-lucky_numbers = [4,42, 2, 8, 15, 23, 1, 16, 23, 42]
+lucky_numbers = [4, 42, 2, 8, 15, 23, 1, 16, 23, 42]
 friends = ["Kevin", "Karen", "Jim", "Jim", "Jim", "Jim", "Oscar", "Toby"]
 friends.append("Creed")
 friends.insert(1, "Kelly")
@@ -79,14 +79,19 @@ friends2 = friends.copy()
 
 # friends.extend(lucky_numbers)
 
-print(friends)
-print(friends.index("Karen"))
-print(friends.count("Jim"))
+# print(friends)
+# print(friends.index("Karen"))
+# print(friends.count("Jim"))
 
-print(lucky_numbers)
-print(friends2)
+# print(lucky_numbers)
+# print(friends2)
 
 # friends[1] = "Mike"
 # print(friends)
 # print(friends[2])
 # print(friends[1:4])
+
+# TUPLES (it's inmutable,can't change the values in a tuple after creating it)
+coordinates = [(4, 5), (8, 5), (3, 4), (80, 25)]
+print(coordinates[0])
+print(coordinates[0][1])
