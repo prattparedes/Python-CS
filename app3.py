@@ -1,4 +1,4 @@
-#calculator
+# calculator
 # num1 = float(input("Enter first number: "))
 # op = input("Enter operator: ")
 # num2 = float(input("Enter second number: "))
@@ -16,9 +16,9 @@
 
 # Dictionaries
 monthConversions = {
-     0: "Monday",
-     1: "Tuesday",
-     2: "Wednesday",
+    0: "Monday",
+    1: "Tuesday",
+    2: "Wednesday",
     "Jan": "January",
     "Feb": "February",
     "Mar": "March",
@@ -46,7 +46,7 @@ monthConversions = {
 
 # print('Done with loop')
 
-#Guessing word game
+# Guessing word game
 secret_word = "giraffe"
 guess = ""
 guess_count = 0
@@ -66,25 +66,34 @@ out_of_guesses = False
 #     print("You win!")
 
 
-#For Loop
-for letter in "Giraffe Academy":
-    print(letter)
+# For Loop
+# for letter in "Giraffe Academy":
+#     print(letter)
 
-friends = ["Jim", "Karen", "Kevin"]
-for name in friends:
-    print(name)
+# friends = ["Jim", "Karen", "Kevin"]
+# for name in friends:
+#     print(name)
 
-#range(3,10)
-for index in range(5):
-    print(index)
-for index in range(3, 10):
-    print(index)
+# #range(3,10)
+# for index in range(5):
+#     print(index)
+# for index in range(3, 10):
+#     print(index)
 
-for index in range(len(friends)):
-    print(friends[index])
+# for index in range(len(friends)):
+#     print(friends[index])
 
-for index in range(5):
-    if index == 0:
-        print('first iteration')
-    else:
-        print('Not first')
+# for index in range(5):
+#     if index == 0:
+#         print('first iteration')
+#     else:
+#         print('Not first')
+
+# Exponent functions
+def raise_to_power(base_num, pow_num):
+    result = 1
+    for index in range(pow_num):
+        result = result * base_num
+    return result
+
+print(raise_to_power(3, 4))
