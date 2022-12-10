@@ -33,7 +33,15 @@ monthConversions = {
     "Dec": "December",
 }
 
-print(monthConversions["Nov"])
-print(monthConversions.get("Dxc", "Not a valid Key"))
-print(monthConversions.get(0, "Not a valid Key"))
-print(monthConversions.get(3, "Not a valid Key"))
+# print(monthConversions["Nov"])
+# print(monthConversions.get("Dxc", "Not a valid Key"))
+# print(monthConversions.get(0, "Not a valid Key"))
+# print(monthConversions.get(3, "Not a valid Key"))
+
+# While loop
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+
+print('Done with loop')
