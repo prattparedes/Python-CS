@@ -144,8 +144,21 @@ employee_file = open("employees.txt", "r")
 
 # print(employee_file.read())
 # print(employee_file.readline())
-for employee in employee_file.readlines():
-    print(employee)
+# for employee in employee_file.readlines():
+#     print(employee)
 # print(employee_file.readlines())
+
+employee_file.close()
+
+#Writing and appending
+# employee_file = open("employees.txt", "a")
+
+# employee_file.write("\nKelly - Costumer Service")
+
+# employee_file.close()
+
+employee_file = open("employees1.txt", "w")
+
+employee_file.write("\nPratt - Software Developer")
 
 employee_file.close()
