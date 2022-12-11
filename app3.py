@@ -128,14 +128,24 @@ def translate(phrase):
 # print(translate(input("Enter a phrase: ")))
 
 # Try / Except
+# try:
+#     value = 10/0
+#     number = int(input("Enter a number: "))
+#     print(number)
+# except ZeroDivisionError as err:
+#     print(err)
+#     print("Divided by zero")
+# except ValueError:
+#     print("Invalid input")
 
 
-try:
-    value = 10/0
-    number = int(input("Enter a number: "))
-    print(number)
-except ZeroDivisionError as err:
-    print(err)
-    print("Divided by zero")
-except ValueError:
-    print("Invalid input")
+# Reading files
+employee_file = open("employees.txt", "r")
+
+# print(employee_file.read())
+# print(employee_file.readline())
+for employee in employee_file.readlines():
+    print(employee)
+# print(employee_file.readlines())
+
+employee_file.close()
