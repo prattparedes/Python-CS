@@ -41,4 +41,13 @@ def run_test(questions):
             score += 1
     print("Your score is: " + str(score) + "/" + str(len(questions)) + " Correct Answers")
 
-run_test(questions)
+# run_test(questions)
+
+#Object Functions
+from Student import Student2
+
+student1 = Student2("Oscar", "Accounting", 3.1)
+student2 = Student2("Phill", "Business", 3.7)
+
+print(student2.on_honor_roll())
+print(student1.on_honor_roll())
